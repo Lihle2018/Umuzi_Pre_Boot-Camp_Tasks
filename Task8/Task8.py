@@ -1,10 +1,11 @@
 num =int(input("Enter a number: "))
 
-def Convert(number):
+def convert(number):
     hours=number//60
     min=number%60
-    print(str(hours)+" hours, "+str(min)+" minutes\n")
+
+    print(f"{hours} hour(s):{min} min\n")
 print()
-Convert(num)
+convert(num)
 
     

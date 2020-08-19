@@ -1,7 +1,7 @@
 
 Input =input("Enter a String: ")
 
-def PrintVowels(Input):
+def print_vowels(Input):
     vowels ="aeiouAEIOU"
 
     i =0
@@ -10,6 +10,6 @@ def PrintVowels(Input):
            if Input[i]==vowel:
                print(Input[i])
         i+=1
-PrintVowels(Input)
+Print_vowels(Input)
            
         
